@@ -1,0 +1,9 @@
+runtime: nodejs20
+
+handlers:
+  - url: /
+    static_files: dist/my-facial-recognition-app/index.html
+    upload: dist/my-facial-recognition-app/index.html
+
+  - url: /
+    static_dir: dist/my-facial-recognition-app
